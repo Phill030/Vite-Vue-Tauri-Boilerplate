@@ -1,6 +1,6 @@
 {
   "package": {
-    "productName": "model-inspector",
+    "productName": "tauri-app",
     "version": "0.1.0"
   },
   "build": {
@@ -13,7 +13,7 @@
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "de.phill.dev",
+      "identifier": "com.tauri.dev",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
@@ -51,15 +51,15 @@
     },
     "windows": [
       {
-        "title": "PerfectHeist 2 Model-Inspector",
-        "width": 1300,
-        "height": 740,
+        "title": "Tauri App",
+        "width": 800,
+        "height": 600,
         "resizable": true,
         "fullscreen": false
       }
     ],
     "security": {
-      "csp": ""
+      "csp": null
     }
   }
 }

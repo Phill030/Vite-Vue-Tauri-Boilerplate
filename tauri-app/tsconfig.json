@@ -12,6 +12,7 @@
     "esModuleInterop": true,
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
+
     "removeComments": true,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
